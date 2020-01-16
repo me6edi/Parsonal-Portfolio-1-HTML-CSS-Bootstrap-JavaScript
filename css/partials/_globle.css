@@ -52,3 +52,7 @@ transition: background .6s ease;
 	box-shadow: var(--box-shadow);
 
 }
+p.para{
+	color: var(--text-color);
+	font: normal 500 16px/ 25px var(--roboto)
+} 

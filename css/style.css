@@ -70,3 +70,45 @@
 padding:7rem 0;
 width: 90rem;
 }
+/*End Banner Area*/
+
+/*Start About Area*/
+
+.about-area{
+	  padding: 8rem 5rem;
+}
+.about-area .about-title h2> span{
+	display: block;
+	font: normal bold 49px/60px var(--roboto);
+	letter-spacing: 21px;
+}
+.about-area .about-title .paragraph > p{
+	padding: .4rem 0;
+}
+/*End About Area*/
+
+/*Start Brand Area*/
+.site-main .brand-area{
+	padding: 1rem 20rem;
+	margin-bottom: 4rem;
+}
+
+.brand-area .first-row .col-lg-4{
+	display: flex;
+	justify-content: center;
+}
+.brand-area .first-row .col-lg-4 > .single-brand{
+ border: 1px solid var(--border-color);
+ text-align: center;
+ padding: 1.8rem 0rem;
+ margin: .9rem 0;
+ width: 180px;
+ height: 100px;
+ cursor: pointer;
+ transform: transform.4s ease;
+}
+.brand-area .first-row .col-lg-4 > .single-brand > img{
+	width: 50%;
+}
+/*End Brand Area*/
+
