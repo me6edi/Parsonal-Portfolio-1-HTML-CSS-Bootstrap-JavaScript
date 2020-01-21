@@ -8,6 +8,10 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<!-- font awesome icons -->
 		<link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+		<!-- Magnific Popup css file -->
+		<link rel="stylesheet" type="text/css" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+
 		<!-- Custom css file -->
 		<link rel="stylesheet" href="css/style.css">
 	</head>
@@ -273,7 +277,7 @@
 						<h1 class="text-uppercase title-h1">Quality Work</h1>
 					</div>
 					<div class="button-group">
-						<button type="button" class="active">All</button>
+						<button type="button"class="active"id="btn1" dta-filter="*">All</button>
 						<button type="button" data-filter=".popular">Popular</button>
 						<button type="button" data-filter=".latest">Latest</button>
 						<button type="button" data-filter=".following">Following</button>
@@ -283,7 +287,9 @@
 						<div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
 							<div class="our-project">
 								<div class="img">
-									<img src="./img/portfolio/p1.jpg" alt="portfolio-1">
+									<a class="test-popup-link" href="./img/portfolio/p1.jpg">
+										<img src="./img/portfolio/p1.jpg" alt="portfolio-1">
+									</a>
 								</div>
 								<div class="title py-4">
 									<h4 class="text-uppercase">
@@ -296,7 +302,9 @@
 						<div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
 							<div class="our-project">
 								<div class="img">
-									<img src="./img/portfolio/p2.jpg" alt="portfolio-2">
+									<a class="test-popup-link" href="./img/portfolio/p2.jpg">
+										<img src="./img/portfolio/p2.jpg" alt="portfolio-2">
+									</a>
 								</div>
 								<div class="title py-4">
 									<h4 class="text-uppercase">
@@ -309,7 +317,9 @@
 						<div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
 							<div class="our-project">
 								<div class="img">
-									<img src="./img/portfolio/p3.jpg" alt="portfolio-3">
+									<a class="test-popup-link" href="./img/portfolio/p3.jpg">
+										<img src="./img/portfolio/p3.jpg" alt="portfolio-3">
+									</a>
 								</div>
 								<div class="title py-4">
 									<h4 class="text-uppercase">
@@ -322,7 +332,9 @@
 						<div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
 							<div class="our-project">
 								<div class="img">
-									<img src="./img/portfolio/p4.jpg" alt="portfolio-4">
+									<a class="test-popup-link" href="./img/portfolio/p4.jpg">
+										<img src="./img/portfolio/p4.jpg" alt="portfolio-4">
+									</a>
 								</div>
 								<div class="title py-4">
 									<h4 class="text-uppercase">
@@ -335,7 +347,9 @@
 						<div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
 							<div class="our-project">
 								<div class="img">
-									<img src="./img/portfolio/p5.jpg" alt="portfolio-5">
+									<a class="test-popup-link" href="./img/portfolio/p5.jpg">
+										<img src="./img/portfolio/p5.jpg" alt="portfolio-5">
+									</a>
 								</div>
 								<div class="title py-4">
 									<h4 class="text-uppercase">
@@ -348,7 +362,9 @@
 						<div class="col-lg-4 col-md-6 col-sm-12 element-item following">
 							<div class="our-project">
 								<div class="img">
-									<img src="./img/portfolio/p6.jpg" alt="portfolio-6">
+									<a class="test-popup-link" href="./img/portfolio/p6.jpg">
+										<img src="./img/portfolio/p6.jpg" alt="portfolio-6">
+									</a>
 								</div>
 								<div class="title py-4">
 									<h4 class="text-uppercase">
@@ -361,7 +377,9 @@
 						<div class="col-lg-4 col-md-6 col-sm-12 element-item following">
 							<div class="our-project">
 								<div class="img">
-									<img src="./img/portfolio/p7.jpg" alt="portfolio-7">
+									<a class="test-popup-link" href="./img/portfolio/p7.jpg">
+										<img src="./img/portfolio/p7.jpg" alt="portfolio-7">
+									</a>
 								</div>
 								<div class="title py-4">
 									<h4 class="text-uppercase">
@@ -374,7 +392,9 @@
 						<div class="col-lg-4 col-md-6 col-sm-12 element-item following">
 							<div class="our-project">
 								<div class="img">
-									<img src="./img/portfolio/p8.jpg" alt="portfolio-8">
+									<a class="test-popup-link" href="./img/portfolio/p8.jpg">
+										<img src="./img/portfolio/p8.jpg" alt="portfolio-8">
+									</a>
 								</div>
 								<div class="title py-4">
 									<h4 class="text-uppercase">
@@ -387,7 +407,9 @@
 						<div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
 							<div class="our-project">
 								<div class="img">
-									<img src="./img/portfolio/p9.jpg" alt="portfolio-9">
+									<a class="test-popup-link" href="./img/portfolio/p9.jpg">
+										<img src="./img/portfolio/p9.jpg" alt="portfolio-9">
+									</a>
 								</div>
 								<div class="title py-4">
 									<h4 class="text-uppercase">
@@ -401,6 +423,22 @@
 				</div>
 			</section>
 			<!-- ==================== End Project Area ====================== -->
+			<!-- ==================== Start About Area ====================== -->
+	
+			<section class="about-area">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-12">
+							<div class="about-title">
+								<h1 class="text-uppercase title-h1">Client say about me</h1>
+								<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum officiis, ipsa vel eveniet quibusdam natus eius nisi, voluptates maiores reiciendis!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==================== End About Area====================== -->
 			
 		</main>
 		<!-- ==================== End Main Area ====================== -->
@@ -411,6 +449,8 @@
 		<script src="js/bootstrap.min.js"></script>
 		<!-- isotope js libary -->
 		<script src="./vendor/isotope/isotope.min.js"></script>
+		<!-- Magnific Popup js file -->
+		<script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
 		<!-- coustom js file -->
 		<script src="./js/main.js "></script>
 		
