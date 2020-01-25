@@ -239,3 +239,57 @@ width: 90rem;
 	height: 12px;
 }
 /*End About Me*/
+
+/*Subscribe me*/
+
+.subscribe-us-area .subscribe{
+	background: url(../img/subscribe-bg.png)no-repeat;
+	padding: 10rem 0;
+	margin: 3rem auto;
+}
+.subscribe-us-area .subscribe .subscribe-title h4{
+	font: normal 700 30px/30px var(--roboto);
+	color: whitesmoke;
+}
+
+.subscribe-us-area .subscribe .subscribe-title p{
+	color: whitesmoke;
+	padding: 1rem 4rem;
+
+}
+.subscribe-us-area .subscribe form .input-textbox input{
+	width: 400px;
+	padding: 1.5rem 1rem;
+	border: 1px solid whitesmoke;
+	background: transparent;
+	color: white;
+	font: normal 500 17px/20px var(--roboto);
+}
+.subscribe-us-area .subscribe form .input-textbox input::placeholder{
+	color: whitesmoke;
+}
+.subscribe-us-area .subscribe form .btn-submit button{
+	background: whitesmoke;
+	color: #000;
+	padding: .7rem 2rem;
+}
+/*End Subscribe me*/
+
+/*Footer Area*/
+
+footer.footer-area{
+	padding: 5rem 0;
+	background: url(../img/footer-bg.png)no-repeat;
+}
+footer.footer-area .social h5{
+	font: normal 500 23px/30px var(--roboto);
+}
+footer.footer-area .social a > i{
+	font-size: 22px;
+	padding: 2rem;
+	color: var(--border-color);
+}
+footer.footer-area .social a:hover > i{
+	color: var(--primary-color);
+}
+/*End Footer Area*/
