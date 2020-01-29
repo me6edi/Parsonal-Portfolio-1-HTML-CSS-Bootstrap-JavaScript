@@ -88,7 +88,7 @@ width: 90rem;
 /*End About Area*/
 
 /*Start Brand Area*/
-.site-main .brand-area{
+.brand-area{
 	padding: 1rem 20rem;
 	margin-bottom: 4rem;
 }
@@ -105,7 +105,7 @@ width: 90rem;
  width: 180px;
  height: 100px;
  cursor: pointer;
- transform: transform.4s ease;
+ transform: transform .4s ease;
 }
 .brand-area .first-row .col-lg-4 > .single-brand > img{
 	width: 50%;
@@ -280,6 +280,7 @@ width: 90rem;
 footer.footer-area{
 	padding: 5rem 0;
 	background: url(../img/footer-bg.png)no-repeat;
+	background-size: cover;
 }
 footer.footer-area .social h5{
 	font: normal 500 23px/30px var(--roboto);
@@ -292,4 +293,4 @@ footer.footer-area .social a > i{
 footer.footer-area .social a:hover > i{
 	color: var(--primary-color);
 }
-/*End Footer Area*/
+/*End Footer Area*/ 

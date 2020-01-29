@@ -1,0 +1,91 @@
+
+
+
+/*fi the viewport is equal to 340px or less than that*/
+@media only screen and (max-width: 340px){
+	.header_area .main-menu .navbar,
+	.header_area .main-menu .navbar .navbar-brand,
+	.subscribe-us-area .subscribe .subscribe-title,
+	.subscribe-us-area .subscribe .subscribe-title p,h4,
+	.services-area,.subscribe-us-area .subscribe{
+		padding: 2%;
+		margin-top: 6px;
+	}
+
+	.site-banner .site-title h1{
+		font-size: 41px;
+	}
+	.subscribe-us-area .subscribe form .input-textbox input{
+		width: 15rem !important;
+		margin-left: 20px;
+	}
+	.subscribe-us-area .subscribe form .input-textbox{
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.services-area .services{
+		width: 13rem;
+	}
+	.about-area .about-title p {
+    padding: 0px;
+}
+}
+
+@media only screen and (max-width: 792px){
+	.about-area .about-area .about-title h2 > span{
+		font-size: 31px;
+		letter-spacing: 10px;
+	}
+		.subscribe-us-area .subscribe form .input-textbox{
+		margin-bottom: 10px;
+	}
+
+	.brand-area .experience-area .years-area{
+		padding-left: 1%;
+		width: 40%;
+	}
+
+	.brand-area .experience-area .bg-panel{
+		margin-left: 30%;
+		width: 80%;
+	}
+
+	.brand-area .experience-area .call-area{
+		padding-left: 3%;
+	}
+	.project-area .button-group button{
+		font: normal 500 18px/40px var(--roboto);
+	}
+
+	.about-area .about-title{
+		padding: 0%;
+	}
+
+	.subscribe-us-area .subscribe form .input-text{
+		width: 20rem;
+		margin: 5%;
+	}
+
+
+.subscribe-us-area .subscribe form .btn-submit button {
+
+    margin-right: -68px;
+    margin-top: 4px;
+
+    margin-bottom: 10px;
+}
+}
+
+@media only screen and (max-width: 1910px){
+	.header_area .main-menu .navbar{
+		padding: 1rem;
+	}
+	.container{
+		max-width: 90%;
+
+	}
+	.brand-area,.services-area .services-title,.about-area{
+		padding: 3% 4%;
+	}
+}
