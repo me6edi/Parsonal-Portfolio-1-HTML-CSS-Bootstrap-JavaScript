@@ -2,7 +2,10 @@
 
 
 /*fi the viewport is equal to 340px or less than that*/
-@media only screen and (max-width: 340px){
+@media only screen and (max-width:576px){
+
+
+	
 	.header_area .main-menu .navbar,
 	.header_area .main-menu .navbar .navbar-brand,
 	.subscribe-us-area .subscribe .subscribe-title,
@@ -30,9 +33,20 @@
 	.about-area .about-title p {
     padding: 0px;
 }
+
+.subscribe-us-area .subscribe form .input-textbox input{
+	width: 300px;
 }
 
-@media only screen and (max-width: 792px){
+.col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-left: 92px;
+}
+
+}
+
+@media only screen and (max-width:768px){
 	.about-area .about-area .about-title h2 > span{
 		font-size: 31px;
 		letter-spacing: 10px;
@@ -69,15 +83,13 @@
 
 
 .subscribe-us-area .subscribe form .btn-submit button {
-
     margin-right: -68px;
     margin-top: 4px;
-
     margin-bottom: 10px;
 }
 }
 
-@media only screen and (max-width: 1910px){
+@media only screen and (max-width: /*1910*/992px){
 	.header_area .main-menu .navbar{
 		padding: 1rem;
 	}
@@ -89,3 +101,6 @@
 		padding: 3% 4%;
 	}
 }
+
+
+
